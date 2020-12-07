@@ -16,7 +16,6 @@ class Main {
 }
 
 class SavingsAccount{
-  
   public static void monthlyInterest(float interestRate, float balance){
     float newBalance = (balance*interestRate)/12 + balance;
     System.out.printf("The new balance after adding up the monthly interest rate of %.2f to the previous balance %.2f is %.2f\n", (balance*interestRate)/12, balance, newBalance);  
